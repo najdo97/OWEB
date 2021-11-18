@@ -83,7 +83,7 @@ p {
     float: center;
     margin-left: 20%;
     width: 100%;
-    padding: 50px;
+    padding: 10px;
   }
 
   .sliki button{
@@ -189,3 +189,72 @@ p {
  .home{
   position:fixed;
  }
+
+ .dummy_text{
+
+    text-align:left;
+    font-family: "Montserrat";
+    color: rgb(168, 213, 231);
+
+   margin-left: 21%;
+ }
+#pole_komentar{
+  background-color: azure;
+
+  margin-left: 21%;
+}
+
+#komentari{
+  margin-left: 21%;
+}
+ 
+#komentiraj{
+    font-family: "Montserrat";
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 10px;
+  }
+
+#komentiraj:hover
+{
+    background-color: rgba(0,136,169,0.7);
+
+}
+
+
+#site{
+  padding: 0%;
+  margin-left: 2.5%;
+}
+
+#like{
+  padding:0%;
+  margin-left: 21%;
+}
+#like2{
+  padding:0%;
+  margin-left: 21%;
+}
+#like_counter{
+  inline-size: auto;
+  width: auto;
+  margin-left: 21.5%;
+  text-align:left;
+  font-family: "Montserrat";
+  color: rgb(168, 213, 231);
+
+}
+
+#like_counter2{
+  inline-size: auto;
+  width: auto;
+  margin-left: 21.5%;
+  text-align:left;
+  font-family: "Montserrat";
+  color: rgb(168, 213, 231);
+
+}

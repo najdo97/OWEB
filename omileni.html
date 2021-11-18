@@ -6,6 +6,7 @@
         <title>Borjan's Web Page</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="C:\Users\Borjan\Desktop\Proektna\pxl1.png">
+       
 
     </head>
     <header>
@@ -87,34 +88,31 @@
             
             
             
-        <script>    
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-
-            for (i = 0; i < coll.length; i++)
-            {
+        
+            <script>
+            
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                
+                for (i = 0; i < coll.length; i++)
+                 {
                 coll[i].addEventListener("click", function() 
-                {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.maxHeight)
-                        {
+                     {
+                         this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                         if (content.style.maxHeight)
+                             {
                             content.style.maxHeight = null;
-                        } 
-                    else 
-                        {
-                            content.style.maxHeight = content.scrollHeight + "px";
-                        }            
-                }    
-                                        );
-            }
-        </script>
+                             } 
+                         else 
+                            {
+                                content.style.maxHeight = content.scrollHeight + "px";
+                             }            
+                    }     );
+                }
             
             
-            
-            
-            
-            
+            </script>
             
             
             
